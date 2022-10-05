@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OperaTest">
+    <test name="OperaTest">
+        <parameter name="browserName" value="Opera"></parameter>
+        <classes>
+
+        </classes>
+    </test>
+</suite>

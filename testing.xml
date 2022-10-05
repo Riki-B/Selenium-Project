@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+    <!--    mozhe da se koristi vo bilo koj sluchaj end to end opisno-->
+    <test name="testNGClass">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+<!--            <class name="com.sedc.automationpractice." />-->
+        </classes>
+    </test>
+</suite>

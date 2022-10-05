@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ChromeTest">
+    <test name="ChromeTest">
+        <parameter name="browserName" value="Chrome"></parameter>
+        <classes>
+            <class name="com.sedc.automationpractice.tests.HomePageTest" />
+            <class name="com.sedc.automationpractice.tests.SignInPageTest" />
+            <class name="com.sedc.automationpractice.tests.CreateUserPageTest" />
+            <class name="com.sedc.automationpractice.tests.QuickViewPageTest" />
+            <class name="com.sedc.automationpractice.tests.ViewProductPageTest" />
+            <class name="com.sedc.automationpractice.tests.CheckOutSummaryTest" />
+            <class name="com.sedc.automationpractice.tests.CheckOutShippingPageTest" />
+            <class name="com.sedc.automationpractice.tests.CheckOutAddressPageTest" />
+            <class name="com.sedc.automationpractice.tests.CheckOutShippingPageTest" />
+            <class name="com.sedc.automationpractice.tests.CheckOutPaymentPageTest" />
+            <class name="com.sedc.automationpractice.tests.EndToEndTest" />
+        </classes>
+    </test>
+</suite>
