@@ -17,10 +17,6 @@ import org.testng.asserts.SoftAssert;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-/*    -Registracija na nov korisnik
-    -Dodavanje nekolku produkti vo koshnicka
-    -Brishenje na 1 produkt od koshnicka
-    -Check out na poracka (Check out> Shipping Adress> Place order) itn.*/
 
     WebDriver driver;
     WebDriverWait wait;
