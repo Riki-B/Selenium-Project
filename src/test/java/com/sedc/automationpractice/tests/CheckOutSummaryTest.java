@@ -10,12 +10,6 @@ public class CheckOutSummaryTest extends BaseTest{
     String quantity = "10";
     String size = "M";
 
-    // check if one product is added
-    // check if 10 products can be added
-    // check if delete button works
-    // check if total price is correctly calculated
-    // check if qnt can be changed
-
     @Test (description = "check if one product is added")
     public void addProduct (){
         homePage.navigateToPage();
