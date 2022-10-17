@@ -99,28 +99,6 @@ public class CheckOutSummaryPage {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(invoiceAdd)).findElement(this.city).getText();
     }
 
-    // Not working due to the States including multiple words in name such as District of Colorado
-//    public String delCity (){
-//        String temp = "";
-//        temp = wait.until(ExpectedConditions.visibilityOfElementLocated(deliveryAdd)).findElement(city).getText();
-//        String[] city = temp.split(",");
-//        return city[0];
-//    }
-//
-//    public String delState (){
-//        String temp = "";
-//        temp = wait.until(ExpectedConditions.visibilityOfElementLocated(deliveryAdd)).findElement(city).getText();
-//        String[] city = temp.split("\\s");
-//        return city[1];
-//    }
-//
-//    public String delZip (){
-//        String temp = "";
-//        temp = wait.until(ExpectedConditions.visibilityOfElementLocated(deliveryAdd)).findElement(city).getText();
-//        String[] city = temp.split("\\s");
-//        return city[2];
-//    }
-
     public String delNum (){
         return wait.until(ExpectedConditions.visibilityOfElementLocated(deliveryAdd)).findElement(number).getText();
     }
@@ -158,28 +136,6 @@ public class CheckOutSummaryPage {
         return color[0].substring(1);
     }
 
-    // Not working due to the States including multiple words in name such as District of Colorado
-//    public String invCity (){
-//        String temp = "";
-//        temp = wait.until(ExpectedConditions.visibilityOfElementLocated(deliveryAdd)).findElement(city).getText();
-//        String[] city = temp.split(",");
-//        return city[0];
-//    }
-//
-//    public String invState (){
-//        String temp = "";
-//        temp = wait.until(ExpectedConditions.visibilityOfElementLocated(deliveryAdd)).findElement(city).getText();
-//        String[] state = temp.split("\\s");
-//        return state[1];
-//    }
-//
-//    public String invZip (){
-//        String temp = "";
-//        temp = wait.until(ExpectedConditions.visibilityOfElementLocated(deliveryAdd)).findElement(city).getText();
-//        String[] zip = temp.split("\\s");
-//        return zip[2];
-//    }
-
     public String invNum (){
         return wait.until(ExpectedConditions.visibilityOfElementLocated(invoiceAdd)).findElement(number).getText();
     }
@@ -207,7 +163,5 @@ public class CheckOutSummaryPage {
         String result = String.format("%.2f", temp);
         return String.valueOf(result);
     }
-
-
 
 }
